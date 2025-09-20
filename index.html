@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="C:\Users\Juan Cruz\Desktop\UTN\code.png" type="image/png">
+</head>
+<body>
+
+  <!-- Menú -->
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#aptitudes">Aptitudes</a></li>
+        <li><a href="#contacto">Redes</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#formulario">Formulario de Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="portfolio-section">
+
+    <div class="portfolio-content">
+
+      <h1>Juan Cruz Mitra</h1>
+
+      <!-- Sobre mí -->
+      <section id="sobre-mi">
+        <h2>SOBRE MÍ</h2>
+        <div class="perfil">
+          <img class="fotoperfil" src="img/jc.jpg" alt="Juan Cruz Mitra">
+          <p>Mi nombre es Juan Cruz y actualmente me encuentro cursando la Tecnicatura Universitaria en Programacion en UTN FRGP, la cual comencé en Agosto de 2024. 
+          Anteriormente realice el Curso de Fundamentos de la Programación, en el canal de YouTube de Maxi Programa.</p>
+        </div>
+      </section>
+
+    <hr class="separador">
+    
+    <!-- Aptitudes -->
+      <section id="aptitudes">
+        <h3>APTITUDES</h3>
+        <div style="text-align: center;">
+          <p style="color: white;" class="resaltado">Tecnologias en las que fui adquiriendo conocimientos a lo largo de la cursada.</p>
+        </div>
+
+        <div class="aptitudes">
+          <div class="tech-list">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png" class="tech" alt="">
+            <img src="https://images.icon-icons.com/2415/PNG/512/csharp_plain_logo_icon_146577.png" class="tech" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png" class="tech" alt="">
+          </div>
+        </div>
+
+        <div class="aptitudes">
+          <div class="tech-list">
+            <img src="https://phinit.de/wp-content/uploads/2022/12/MSSQL_Schleife.png" class="tech" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" class="tech" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" class="tech" alt="">
+          </div>
+        </div>
+      </section>
+
+      <hr style="width: 35%;" class="separador">
+
+        
+      <!-- Proyectos -->
+      <section id="proyectos">
+        <h5>PROYECTOS</h5>
+        <div class="proyectos-grid">
+          <div class="proyecto">
+            <h3>Sistema de Gestion de un comercio</h3>
+            <p>Sistema de gestión para un comercio. Aplicación de consola que lee y escribe archivos, permitiendo registrar, modificar y consultar datos básicos.</p>
+            <a href="https://github.com/juancruzrp/tp-prog2" target="_blank">Ver en GitHub</a>
+          </div>
+          
+          <div class="proyecto">
+            <h3>Aplicación de gestión de artículos</h3>
+            <p>Usando C# .NET y SQL Server. Permite buscar, agregar, modificar y eliminar productos.</p>
+            <a href="https://github.com/juancruzrp/tp-winform-equipo-20A" target="_blank">Ver en GitHub</a>
+          </div>
+        </div>
+      </section>
+      
+      <hr class="separador">
+      
+      <!-- Redes -->
+      <footer id="contacto">
+        <h4>REDES</h4>
+        <div class="contacto">
+          <a href="https://www.linkedin.com/in/juan-cruz-mitra-bb91b013b/" target="_blank">
+            <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="red-social" alt="">
+          </a>
+          <hr>
+          <a href="https://github.com/juancruzrp" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social" alt="">
+          </a>
+        </div>
+      </footer>
+        
+
+        <hr style="width: 35%;" class="separador">
+
+        <!-- Formulario contacto -->>
+        <section id="formulario">
+        <h6>FORMULARIO DE CONTACTO</h6>
+          <form class="form-contacto" action="https://getform.io/f/adrdqeqa" method="post">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu email" required>
+            <input type="text" name="asunto" placeholder="Asunto" required>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje" rows="6" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>      
+
+    </div>
+  </section>
+</body>
